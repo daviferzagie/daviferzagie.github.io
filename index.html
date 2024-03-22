@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>My Portfolio</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav
+			class="navbar navbar-expand-lg navbar-dark shadow-sm position-fixed w-100"
+			style="background-color: #1c3235"
+		>
+			<div class="container-fluid">
+				<a class="navbar-brand fw-bold" style="color: #5369d8" href="#"
+					>DaviFerzagie.</a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto fw-bold fs-6">
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="#home"
+								>Beranda</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">Tentang</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#education">Pendidikan</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Kontak</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Navbar END-->
+		<div
+			data-bs-spy="scroll"
+			data-bs-target="#navbarNav"
+			data-bs-root-margin="0px 0px -40%"
+			data-bs-smooth-scroll="true"
+			class="scrollspy-example p-3"
+			style="background-color: #142022"
+			;
+			tabindex="0"
+		>
+			<!-- Home -->
+			<section class="hero" id="home">
+				<div class="container">
+					<div class="d-flex align-items-center" id="heroan">
+						<div
+							class="col-md-6 d-flex justify-content-around text-light"
+						>
+							<div>
+								<p
+									class="fw-bold fs-3"
+									style="
+										color: #4659bb;
+										animation: fadeInUp 1s ease;
+									"
+								>
+									Welcome to My Portfolio
+								</p>
+								<p
+									class="fs-1 fw-bold"
+									style="animation: fadeInUp 1s ease"
+								>
+									Saya Davi
+								</p>
+								<p
+									class="fs-6"
+									style="
+										color: #8e8e8e;
+										animation: fadeInUp 1s ease;
+									"
+								>
+									Lorem ipsum dolor sit amet consectetur,
+									adipisicing elit. Quod optio provident
+									debitis. Doloremque harum aut non illo
+									consequuntur quas iste repudiandae? Quasi
+									doloremque, atque quo a nulla praesentium
+									reprehenderit ipsam obcaecati error
+									laboriosam tenetur architecto sunt
+									consequatur repudiandae
+								</p>
+								<a
+									href="#contact"
+									class="btn btn-primary rounded-pill"
+									style="animation: fadeInUp 1s ease"
+								>
+									Hubungi Saya
+								</a>
+							</div>
+						</div>
+						<div
+							class="col-md-6 d-flex"
+							style="justify-content: center"
+							id="fotoku"
+						>
+							<div
+								class="rounded-circle"
+								style="
+									width: 59%;
+									border: solid #4659bb 5px;
+									overflow: hidden;
+								"
+							>
+								<img
+									src="img/healing.jpg"
+									alt="Gambar Hero"
+									class="img-fluid"
+									style="
+										width: 100%;
+										height: 100%;
+										object-fit: cover;
+									"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Home END -->
+
+			<!-- About -->
+			<section id="about">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-6 text-light">
+							<p class="fs-1 mt-5 fw-bold">Tentang Saya</p>
+							<div class="container ms-4">
+								<p class="fs-4 fw-semibold">Nama</p>
+								<p
+									class="fs-5 fw-medium"
+									style="color: #4659bb"
+								>
+									Muhamad Davi Ferzagie
+								</p>
+								<p
+									class="fs-4 fw-semibold"
+									style="display: inline"
+								>
+									E-Mail
+								</p>
+								<br />
+								<a
+									href="mailto:dferzagie@gmail.com"
+									class="fs-5 fw-medium text-decoration-none"
+									style="color: #4659bb"
+									>dferzagie@gmail.com</a
+								><br /><br />
+								<p
+									class="fs-4 fw-semibold"
+									style="display: inline"
+								>
+									Whatsapp
+								</p>
+								<br />
+								<a
+									href="https://wa.me/6281217781527"
+									class="fs-5 fw-medium text-decoration-none"
+									style="color: #4659bb"
+									>(+62) 8121-7781-527</a
+								>
+								<div class="pt-3">
+									<a
+										href="https://www.facebook.com/profile.php?id=100009114354273"
+										target="_blank"
+									>
+										<svg
+											class="me-3"
+											xmlns="http://www.w3.org/2000/svg"
+											viewBox="0 0 16 16"
+											id="Facebook"
+											width="8%"
+										>
+											<path
+												d="M14 0H2C.897 0 0 .897 0 2v12c0 1.103.897 2 2 2h6v-5.5H6V8h2V6a3 3 0 0 1 3-3h2v2.5h-1c-.552 0-1-.052-1 .5v2h2.5l-1 2.5H11V16h3c1.103 0 2-.897 2-2V2c0-1.103-.897-2-2-2z"
+												fill="#4659bb"
+												class="color000000 svgShape"
+											></path></svg
+									></a>
+									<a
+										href="https://www.instagram.com/davi_ferzagie"
+										target="_blank"
+									>
+										<svg
+											class="me-3"
+											xmlns="http://www.w3.org/2000/svg"
+											xmlns:xlink="http://www.w3.org/1999/xlink"
+											viewBox="0 0 3364.3 3364.7"
+											id="Instagram"
+											width="9%"
+										>
+											<defs>
+												<path
+													id="a"
+													d="M853.2 3352.8c-200.1-9.1-308.8-42.4-381.1-70.6-95.8-37.3-164.1-81.7-236-153.5-71.8-71.8-116.4-140.1-153.5-235.9-28.2-72.3-61.5-181-70.6-381.1-10-216.3-12-281.2-12-829.2s2.2-612.8 11.9-829.3C21 653.1 54.5 544.6 82.5 472.1 119.8 376.3 164.3 308 236 236c71.8-71.8 140.1-116.4 236-153.5C544.3 54.3 653 21 853.1 11.9 1069.5 2 1134.5 0 1682.3 0c548 0 612.8 2.2 829.3 11.9 200.1 9.1 308.6 42.6 381.1 70.6 95.8 37.1 164.1 81.7 236 153.5 71.8 71.8 116.2 140.2 153.5 236 28.2 72.3 61.5 181 70.6 381.1 9.9 216.5 11.9 281.3 11.9 829.3 0 547.8-2 612.8-11.9 829.3-9.1 200.1-42.6 308.8-70.6 381.1-37.3 95.8-81.7 164.1-153.5 235.9-71.8 71.8-140.2 116.2-236 153.5-72.3 28.2-181 61.5-381.1 70.6-216.3 9.9-281.3 11.9-829.3 11.9-547.8 0-612.8-1.9-829.1-11.9"
+													fill="#000000"
+													class="color000000 svgShape"
+												></path>
+											</defs>
+											<clipPath id="b">
+												<use
+													overflow="visible"
+													xlink:href="#a"
+												></use>
+											</clipPath>
+											<g
+												clip-path="url(#b)"
+												fill="#000000"
+												class="color000000 svgShape"
+											>
+												<defs>
+													<path
+														id="c"
+														d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z"
+														fill="#000000"
+														class="color000000 svgShape"
+													></path>
+												</defs>
+												<clipPath id="d">
+													<use
+														overflow="visible"
+														xlink:href="#c"
+													></use>
+												</clipPath>
+												<g
+													clip-path="url(#d)"
+													fill="#000000"
+													class="color000000 svgShape"
+												>
+													<defs>
+														<path
+															id="e"
+															d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z"
+															fill="#000000"
+															class="color000000 svgShape"
+														></path>
+													</defs>
+													<clipPath id="f">
+														<use
+															overflow="visible"
+															xlink:href="#e"
+														></use>
+													</clipPath>
+													<path
+														fill="#4659bb"
+														d="M-5520.6-5520.5H8885.2V8885.3H-5520.6z"
+														clip-path="url(#f)"
+														class="color204bff svgShape"
+													></path>
+													<defs>
+														<path
+															id="g"
+															d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z"
+															fill="#000000"
+															class="color000000 svgShape"
+														></path>
+													</defs>
+													<clipPath id="h">
+														<use
+															overflow="visible"
+															xlink:href="#g"
+														></use>
+													</clipPath>
+													<g
+														clip-path="url(#h)"
+														fill="#000000"
+														class="color000000 svgShape"
+													>
+														<defs>
+															<path
+																id="i"
+																d="M-3347.1-3157.1H8892.2V7619.1H-3347.1z"
+																fill="#000000"
+																class="color000000 svgShape"
+															></path>
+														</defs>
+														<defs>
+															<path
+																id="k"
+																d="M-3347.1-3157.1H8892.2V7619.1H-3347.1z"
+																fill="#000000"
+																class="color000000 svgShape"
+															></path>
+														</defs>
+														<defs>
+															<path
+																id="m"
+																d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z"
+																fill="#000000"
+																class="color000000 svgShape"
+															></path>
+														</defs>
+														<clipPath id="j">
+															<use
+																overflow="visible"
+																xlink:href="#i"
+															></use>
+														</clipPath>
+														<clipPath
+															id="l"
+															clip-path="url(#j)"
+														>
+															<use
+																overflow="visible"
+																xlink:href="#k"
+															></use>
+														</clipPath>
+														<clipPath
+															id="n"
+															clip-path="url(#l)"
+														>
+															<use
+																overflow="visible"
+																xlink:href="#m"
+															></use>
+														</clipPath>
+														<g
+															clip-path="url(#n)"
+															fill="#000000"
+															class="color000000 svgShape"
+														>
+															<defs>
+																<path
+																	id="o"
+																	d="M-3347.1-3157.1H8892.2V7619.1H-3347.1z"
+																	fill="#000000"
+																	class="color000000 svgShape"
+																></path>
+															</defs>
+															<defs>
+																<path
+																	id="q"
+																	d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z"
+																	fill="#000000"
+																	class="color000000 svgShape"
+																></path>
+															</defs>
+															<clipPath id="p">
+																<use
+																	overflow="visible"
+																	xlink:href="#o"
+																></use>
+															</clipPath>
+															<clipPath
+																id="r"
+																clip-path="url(#p)"
+															>
+																<use
+																	overflow="visible"
+																	xlink:href="#q"
+																></use>
+															</clipPath>
+															<g
+																clip-path="url(#r)"
+																fill="#000000"
+																class="color000000 svgShape"
+															>
+																<defs>
+																	<path
+																		id="s"
+																		d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z"
+																		fill="#000000"
+																		class="color000000 svgShape"
+																	></path>
+																</defs>
+																<clipPath
+																	id="t"
+																>
+																	<use
+																		overflow="visible"
+																		xlink:href="#s"
+																	></use>
+																</clipPath>
+																<g
+																	clip-path="url(#t)"
+																	fill="#000000"
+																	class="color000000 svgShape"
+																>
+																	<defs>
+																		<path
+																			id="u"
+																			d="M-3150.1-399.7h8047v8047h-8047z"
+																			fill="#000000"
+																			class="color000000 svgShape"
+																		></path>
+																	</defs>
+																	<defs>
+																		<path
+																			id="w"
+																			d="M-3150.1-399.7h8047v8047h-8047z"
+																			fill="#000000"
+																			class="color000000 svgShape"
+																		></path>
+																	</defs>
+																	<defs>
+																		<path
+																			id="y"
+																			d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z"
+																			fill="#000000"
+																			class="color000000 svgShape"
+																		></path>
+																	</defs>
+																	<clipPath
+																		id="v"
+																	>
+																		<use
+																			overflow="visible"
+																			xlink:href="#u"
+																		></use>
+																	</clipPath>
+																	<clipPath
+																		id="x"
+																		clip-path="url(#v)"
+																	>
+																		<use
+																			overflow="visible"
+																			xlink:href="#w"
+																		></use>
+																	</clipPath>
+																	<clipPath
+																		id="z"
+																		clip-path="url(#x)"
+																	>
+																		<use
+																			overflow="visible"
+																			xlink:href="#y"
+																		></use>
+																	</clipPath>
+																	<g
+																		clip-path="url(#z)"
+																		fill="#000000"
+																		class="color000000 svgShape"
+																	>
+																		<defs>
+																			<path
+																				id="A"
+																				d="M-3150.1-399.7h8047v8047h-8047z"
+																				fill="#000000"
+																				class="color000000 svgShape"
+																			></path>
+																		</defs>
+																		<defs>
+																			<path
+																				id="C"
+																				d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z"
+																				fill="#000000"
+																				class="color000000 svgShape"
+																			></path>
+																		</defs>
+																		<clipPath
+																			id="B"
+																		>
+																			<use
+																				overflow="visible"
+																				xlink:href="#A"
+																			></use>
+																		</clipPath>
+																		<clipPath
+																			id="D"
+																			clip-path="url(#B)"
+																		>
+																			<use
+																				overflow="visible"
+																				xlink:href="#C"
+																			></use>
+																		</clipPath>
+																		<g
+																			clip-path="url(#D)"
+																			fill="#000000"
+																			class="color000000 svgShape"
+																		>
+																			<defs>
+																				<path
+																					id="E"
+																					d="M-2024.7 922.7h6499.5v6499.5h-6499.5z"
+																					fill="#000000"
+																					class="color000000 svgShape"
+																				></path>
+																			</defs>
+																			<defs>
+																				<path
+																					id="G"
+																					d="M-5520.6-5520.5H8892.2V8885.3H-5520.6z"
+																					fill="#000000"
+																					class="color000000 svgShape"
+																				></path>
+																			</defs>
+																			<clipPath
+																				id="F"
+																			>
+																				<use
+																					overflow="visible"
+																					xlink:href="#E"
+																				></use>
+																			</clipPath>
+																		</g>
+																	</g>
+																</g>
+															</g>
+														</g>
+													</g>
+												</g>
+											</g>
+											<path
+												fill="#142022"
+												d="M1269.7 1682.4c0-227.9 184.7-412.7 412.6-412.7s412.7 184.8 412.7 412.7-184.8 412.7-412.7 412.7-412.6-184.8-412.6-412.7m-223.1 0c0 351.1 284.6 635.7 635.7 635.7s635.7-284.6 635.7-635.7-284.6-635.7-635.7-635.7-635.7 284.6-635.7 635.7m1148-660.9c0 82 66.5 148.6 148.6 148.6 82 0 148.6-66.6 148.6-148.6S2425.3 873 2343.2 873s-148.6 66.5-148.6 148.5M1182.1 2690.1c-120.7-5.5-186.3-25.6-229.9-42.6-57.8-22.5-99-49.3-142.4-92.6-43.3-43.3-70.2-84.5-92.6-142.3-17-43.6-37.1-109.2-42.6-229.9-6-130.5-7.2-169.7-7.2-500.3s1.3-369.7 7.2-500.3c5.5-120.7 25.7-186.2 42.6-229.9 22.5-57.8 49.3-99 92.6-142.4 43.3-43.3 84.5-70.2 142.4-92.6 43.6-17 109.2-37.1 229.9-42.6 130.5-6 169.7-7.2 500.2-7.2 330.6 0 369.7 1.3 500.3 7.2 120.7 5.5 186.2 25.7 229.9 42.6 57.8 22.4 99 49.3 142.4 92.6 43.3 43.3 70.1 84.6 92.6 142.4 17 43.6 37.1 109.2 42.6 229.9 6 130.6 7.2 169.7 7.2 500.3 0 330.5-1.2 369.7-7.2 500.3-5.5 120.7-25.7 186.3-42.6 229.9-22.5 57.8-49.3 99-92.6 142.3s-84.6 70.1-142.4 92.6c-43.6 17-109.2 37.1-229.9 42.6-130.5 6-169.7 7.2-500.3 7.2-330.5 0-369.7-1.2-500.2-7.2m-10.2-2238.2c-131.8 6-221.8 26.9-300.5 57.5C790 541 721 583.4 652.1 652.2 583.3 721 540.9 790 509.3 871.5c-30.6 78.7-51.5 168.7-57.5 300.5-6.1 132-7.5 174.2-7.5 510.4s1.4 378.4 7.5 510.4c6 131.8 26.9 221.8 57.5 300.5 31.6 81.4 73.9 150.5 142.8 219.3 68.8 68.8 137.8 111.1 219.3 142.8 78.8 30.6 168.7 51.5 300.5 57.5 132.1 6 174.2 7.5 510.4 7.5 336.3 0 378.4-1.4 510.4-7.5 131.8-6 221.8-26.9 300.5-57.5 81.4-31.7 150.4-74 219.3-142.8 68.8-68.8 111.1-137.9 142.8-219.3 30.6-78.7 51.6-168.7 57.5-300.5 6-132.1 7.4-174.2 7.4-510.4s-1.4-378.4-7.4-510.4c-6-131.8-26.9-221.8-57.5-300.5-31.7-81.4-74-150.4-142.8-219.3-68.8-68.8-137.9-111.2-219.2-142.8-78.8-30.6-168.8-51.6-300.5-57.5-132-6-174.2-7.5-510.4-7.5-336.3 0-378.4 1.4-510.5 7.5"
+												class="colorffffff svgShape"
+											></path></svg
+									></a>
+									<a
+										href="https://discordapp.com/users/daferz."
+										target="_blank"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											enable-background="new 0 0 100 100"
+											viewBox="0 0 100 100"
+											id="Discord"
+											width="9%"
+										>
+											<path
+												d="M85.778,24.561c-11.641-8.71-22.793-8.466-22.793-8.466s-1.14,1.302-1.14,1.302c13.839,4.152,20.27,10.257,20.27,10.257
+							c-19.799-10.901-45.019-10.823-65.613,0c0,0,6.675-6.431,21.328-10.583c0,0-0.814-0.977-0.814-0.977s-11.071-0.244-22.793,8.466
+							c0,0-11.722,21.084-11.722,47.052c0,0,6.838,11.722,24.829,12.292c0,0,3.012-3.582,5.454-6.675
+							c-10.339-3.093-14.246-9.524-14.246-9.524c6.495,4.064,13.063,6.608,21.247,8.222c13.316,2.741,29.879-0.077,42.249-8.222
+							c0,0-4.07,6.594-14.734,9.606c2.442,3.012,5.373,6.512,5.373,6.512C90.662,83.254,97.5,71.532,97.5,71.613
+							C97.5,45.645,85.778,24.561,85.778,24.561z M34.818,64.043c-4.559,0-8.303-3.989-8.303-8.955c0.333-11.892,16.357-11.855,16.607,0
+							C43.121,60.054,39.458,64.043,34.818,64.043z M64.531,64.043c-4.559,0-8.303-3.989-8.303-8.955c0.366-11.869,16.19-11.874,16.607,0
+							C72.834,60.054,69.171,64.043,64.531,64.043z"
+												fill="#4659bb"
+												class="color000000 svgShape"
+											></path>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 d-flex justify-content-center">
+							<img
+								src="img/land.jpg"
+								alt="Penting bergambar"
+								class="img-fluid rounded"
+								style="
+									max-width: 100%;
+									border: solid #4659bb 3px;
+								"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- About END -->
+
+			<!-- Education -->
+			<section class="vh-100" id="education">
+				<div class="container">
+					<div class="row text-center text-light align-items-center">
+						<div class="col">
+							<h2 class="fs-1 mt-5 pt-5 fw-bold">Pendidikan</h2>
+						</div>
+					</div>
+					<div class="container mt-3">
+						<div
+							class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-center text-center p-4"
+							id="kartuan"
+						>
+							<div class="col mb-3">
+								<div
+									class="card h-100"
+									style="border: solid #4659bb 3px"
+								>
+									<img
+										src="img/sd.png"
+										class="card-img-top img-fluid p-4"
+										alt="Sekolah dasar"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											SDN Gebangangkrik 1
+										</h5>
+										<p class="card-text">
+											Sekolah dasar Biasa.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col mb-3">
+								<div
+									class="card h-100"
+									style="border: solid #4659bb 3px"
+								>
+									<img
+										src="img/smp.png"
+										class="card-img-top img-fluid p-4"
+										alt="Sekolah Menengah Pertama"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											SMPN 3 Ngimbang
+										</h5>
+										<p class="card-text">
+											Sekolah menengah Biasa.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col mb-3">
+								<div
+									class="card h-100"
+									style="border: solid #4659bb 3px"
+								>
+									<img
+										src="img/smk.png"
+										class="card-img-top img-fluid p-4"
+										alt="Sekolah Menengah Kejuruan"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											SMKN 1 Sambeng
+										</h5>
+										<p class="card-text">
+											Sekolah kejuruan Biasa.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col mb-3">
+								<div
+									class="card h-100"
+									style="border: solid #4659bb 3px"
+								>
+									<img
+										src="img/univ.png"
+										class="card-img-top img-fluid p-4"
+										alt="Kuli"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											UNHASY Jombang
+										</h5>
+										<p class="card-text">Intinya Kuli.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Education END -->
+
+			<!-- Contact -->
+			<section
+				class="d-flex justify-content-center align-items-center pt-3"
+				id="contact"
+			>
+				<div class="container">
+					<div class="row align-items-center h-100">
+						<div class="col-lg-6 text-light pt-5">
+							<h2 class="mb-4 fs-1 fw-bold">Hubungi Saya</h2>
+							<p class="mb-4">
+								Tidak sepertinya yang mengabaikan pesanmu, Saya
+								siap mendengarkanmu
+							</p>
+							<form>
+								<div class="form-floating mb-3">
+									<input
+										type="text"
+										class="form-control"
+										id="nama"
+										placeholder=""
+										required
+									/>
+									<label
+										for="nama"
+										class="form-label text-secondary"
+										>Nama</label
+									>
+								</div>
+								<div class="form-floating mb-3">
+									<input
+										type="email"
+										class="form-control"
+										id="email"
+										placeholder=" "
+										required
+									/>
+									<label
+										for="email"
+										class="form-label text-secondary"
+										>Email</label
+									>
+								</div>
+								<div class="form-floating mb-3">
+									<textarea
+										class="form-control"
+										id="pesan"
+										placeholder=" "
+										required
+										style="height: 100px; resize: none"
+									></textarea>
+									<label
+										for="pesan"
+										class="form-label text-secondary"
+										>Pesan</label
+									>
+								</div>
+								<button type="submit" class="btn btn-primary">
+									Kirim Pesan
+								</button>
+							</form>
+						</div>
+						<div
+							class="col-lg-6 d-flex mt-5 pt-3 justify-content-center justify-content-lg-end"
+						>
+							<img
+								src="img/callme.png"
+								class="img-fluid rounded"
+								alt="Contact Image"
+								style="max-width: 80%"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Contact END -->
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

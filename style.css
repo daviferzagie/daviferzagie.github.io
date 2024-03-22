@@ -1,0 +1,82 @@
+.navbar {
+	z-index: 1000;
+}
+
+.hero {
+	margin-top: 150px;
+	margin-bottom: 75px;
+}
+
+.container {
+	overflow-x: hidden;
+}
+
+@media (max-width: 767.98px) {
+	#heroan {
+		flex-direction: column-reverse;
+		gap: 50px;
+	}
+
+	#home .col-md-6.text-light,
+	#home .col-md-6.d-flex.justify-content-end {
+		max-width: 100%;
+	}
+
+	#home .col-md-6.text-light {
+		margin-bottom: 20px;
+	}
+
+	#home .rounded-circle {
+		width: 100%;
+		max-width: none;
+	}
+}
+
+.card {
+	transition: transform 0.3s;
+	overflow: hidden;
+}
+
+.card:hover {
+	transform: scale(1.05);
+}
+
+.nav-item.active .nav-link {
+	background-color: #5369d8;
+	border-radius: 10px;
+	padding: 8px 12px;
+}
+
+@media (max-width: 768px) {
+	#contact {
+		margin-top: 900px;
+	}
+}
+
+#about .container {
+	padding: 50px 0;
+}
+
+#about .col-md-6.text-light {
+	order: 1;
+}
+
+#about .col-md-6.d-flex.justify-content-center {
+	order: 2;
+}
+
+@media (max-width: 991.98px) {
+	#about .container {
+		padding: 20px 0;
+	}
+
+	#about .col-md-6.text-light {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	#kartuan {
+		flex-basis: 50%; /* Mengatur lebar kolom menjadi 50% saat lebar layar ≤ 768px */
+	}
+}
